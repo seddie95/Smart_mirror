@@ -11,3 +11,24 @@ pip install tk pillow requests --upgrade google-api-python-client google-auth-ht
 go to the following link to setup your own google calendar api.
 remember to copy the credentials.json file into this folder.
 https://developers.google.com/calendar/quickstart/python
+
+# Third step
+go to the folowing link to sign up for weather api
+https://home.openweathermap.org/users/sign_up
+
+once signed in go to API keys
+copy the key.
+
+Then go to this link
+https://openweathermap.org/current
+
+To set the weather to your city change the city name and country address eg Boston,us.
+Then change the key  which in this case is 'b6907d289e10d714a6e88b30761fae22' to your own key
+
+sample of the url in imperial
+api.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22&units=imperial
+
+sample in metric
+api.openweathermap.org/data/2.5/weather?q=London&appid=b6907d289e10d714a6e88b30761fae22&units=imperial
+
+for more specific weather use city id 
