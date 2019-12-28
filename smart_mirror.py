@@ -201,7 +201,7 @@ class Weather(Frame):
 		and prints it in readible format"""
 		
 		#create weather data variables
-		self.url ='http://api.openweathermap.org/data/2.5/weather?id=7778677&appid=9da3d1abfb8e1a3677d26c96350597c3&units=metric'
+		self.url =''
 		self.res = requests.get(self.url)
 
 		self.data = self.res.json()
