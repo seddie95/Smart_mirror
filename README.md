@@ -37,5 +37,4 @@ self.url ='api.openweathermap.org/data/2.5/weather?q=London&appid=b6907d289e10d7
 
 # Setup Dublin bus 
 Edit the line 22  with your own specific bus stop number ie "stop_no = '1329&format=json'"
-
-[Smart Mirror](https://i.imgur.com/iEqfpd7.png)
+![Smart Mirror](https://i.imgur.com/iEqfpd7.png)
