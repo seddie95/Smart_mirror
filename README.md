@@ -31,7 +31,7 @@ api.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b
 sample in metric:<br>
 api.openweathermap.org/data/2.5/weather?q=London&appid=b6907d289e10d714a6e88b30761fae22&units=imperial
 
-For more specific weather use city id 
+For more specific weather use city id <br>
 Then copy the full link and paste it  on line 204 of  smart_mirror.py<br>
 self.url ='api.openweathermap.org/data/2.5/weather?q=London&appid=b6907d289e10d714a6e88b30761fae22&units=imperial'
 
